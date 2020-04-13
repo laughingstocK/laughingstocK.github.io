@@ -1,1 +1,19 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the entire URL of the current page.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+	var url = window.location.href = 'https://www.google.co.th';
+  document.getElementById("demo").innerHTML = url;
+}
+</script>
+
+</body>
+</html>
